@@ -16,9 +16,6 @@ public class Solution {
 				min = Math.min(num[m], min);
 				r = m;
 			}
-			else {
-				l++;
-			}
 		}
 		min = Math.min(num[r], min);
 		min = Math.min(num[l], min);
